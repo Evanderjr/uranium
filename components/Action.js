@@ -11,7 +11,7 @@ export default function Action() {
         }}
       >
         <h1 className="mb-6 text-3xl font-semibold text-center text-white md:text-6xl">
-          Transform your <br className="sm:hidden" />
+          Black Machine <br className="sm:hidden" />
           <Typing />
         </h1>
         <h2 className="mb-10 text-xl text-center text-gray-200 md:text-2xl">

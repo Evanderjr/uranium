@@ -14,13 +14,13 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Uranium – a ready-to-use website template</title>
+        <title>Black Machine</title>
         <meta content="Example" name="description" />
         <meta property="og:url" content="example.com" />
         <meta property="og:description" content="Example" />
         <meta property="og:title" content="Example" />
         <meta property="og:image" content="" />
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/images/logo/2.svg" />
       </Head>
       <div className="h-full leading-normal text-gray-600">
         <div

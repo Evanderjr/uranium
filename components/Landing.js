@@ -1,16 +1,16 @@
+import Typing from './Typing';
 export default function Landing() {
   return (
     <section>
       <div className="max-w-3xl mx-8 md:mx-auto">
         <div className="my-20 space-y-10 text-center sm:my-16 md:space-y-14">
           <div className="space-y-5 md:space-y-8">
-            <h1 className="text-3xl font-semibold text-white sm:text-5xl md:text-6xl md:text-gray-800">
-              Welcome to Uranium.
-            </h1>
+          <h1 className="mb-6 text-3xl font-semibold text-center text-white md:text-6xl">
+          Black Machine <br className="sm:hidden" />
+          <Typing /> </h1>
             <h2 className="text-lg text-gray-100 md:text-2xl md:mx-10 md:text-gray-600">
-              Uranium is a powerful chemical element of atomic number
-              92 used in nuclear fission. That's precisely what we do:
-              we make you go nuclear.
+            Explore o universo das tecnologias 4.0 e impulsione o seu negócio com as soluções inovadoras sob nossa medida da BLACK-MACHINE.<br/> 
+            Nossa expertise em desenvolvimento web, robótica e inteligência artificial, juntamente com uma abordagem focada em gestão de projetos, nos coloca na vanguarda das soluções tecnológicas para a era digital..
             </h2>
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
@@ -19,7 +19,7 @@ export default function Landing() {
                 href="#"
                 className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600"
               >
-                Get this template{' '}
+                Entrar em contacto{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -34,9 +34,7 @@ export default function Landing() {
                 </svg>
               </a>
               <div className="pt-4 text-sm text-gray-200 sm:pt-2 md:text-gray-600">
-                Modular, easy-to-edit Next.js + Tailwind template
-                <br />
-                You'll enjoy the experience.
+                Soluções tecnológicas
               </div>
             </div>
           </div>
